@@ -1,10 +1,12 @@
-# Semantic-Search-System-with-Semantic-Cache
+# Semantic Search System with Semantic Cache
 
 ## Overview
 
 This project implements a lightweight **Semantic Search System** using the **20 Newsgroups dataset**. The system converts text into vector embeddings and stores them in a vector database for efficient similarity search. A **semantic cache** is implemented to reuse results of similar queries and improve response time.
 
 The system is exposed through a **FastAPI service** that allows users to query documents, view cache statistics, and clear the cache.
+
+---
 
 ## Features
 
@@ -13,10 +15,12 @@ The system is exposed through a **FastAPI service** that allows users to query d
 * Semantic caching using cosine similarity
 * FastAPI REST API for querying and cache management
 * Uses the 20 Newsgroups dataset for document search
-* 
+
+---
 
 ## Project Structure
 
+```
 Trademarkia
 │
 ├── app
@@ -208,9 +212,3 @@ This project uses the **20 Newsgroups dataset** from Scikit-learn, which contain
 * Improve cache eviction strategies
 * Add evaluation metrics for search quality
 * Deploy the API using Docker
-
----
-
-## Author
-
-Developed as part of a **Semantic Search System assignment**.
